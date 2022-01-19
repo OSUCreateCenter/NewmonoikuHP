@@ -3,28 +3,57 @@
 
 <head>
     <meta charset="utf-8">
-    <title>大阪産業大学｜ものづくり育成プロジェクト</title>
-    <meta name="description" content="大阪産業大学　ものづくり育成プロジェクトのホームページです。ものづくり育成プロジェクトは、地域の子供達にものづくりの楽しさや、仕組みについて学ぶ機会を提供しています。">
-    <meta name="keyword" content="大阪産業大学,ものづくり育成プロジェクト,ものづくり、工作、クリエイトセンター、OSU、おおさかさんぎょうだいがく、ものいく、もの育、地域、子供、こども、なつやすみ、夏休み、冬休み、ふゆやすみ、楽しい、たのしくまなぶ、楽しく学ぶ">
+    <title>TEST大阪産業大学｜ものづくり育成プロジェクト</title>
+    <!-- <meta name="description" content="大阪産業大学　ものづくり育成プロジェクトのホームページです。ものづくり育成プロジェクトは、地域の子供達にものづくりの楽しさや、仕組みについて学ぶ機会を提供しています。"> -->
+    <!-- <meta name="keyword" content="大阪産業大学,ものづくり育成プロジェクト,ものづくり、工作、クリエイトセンター、OSU、おおさかさんぎょうだいがく、ものいく、もの育、地域、子供、こども、なつやすみ、夏休み、冬休み、ふゆやすみ、楽しい、たのしくまなぶ、楽しく学ぶ"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
     <script src="main.js"></script>
 </head>
 
 <body>
     <!----- header----->
     <header>
-        <span><a href="index.html">ものづくり育成プロジェクト</a></span>
-
-        <div class="link">
-            <a href="FAQ.html">よくあるご質問</a>
+        <div class="top-head container-fluid my-4">
+            <div class="row text-decoration-none">
+                <div class="col-md-3 col-xs-6 text-decoration-none border-right">
+                    <a href="index.html" class="text-decoration-none text-dark">大阪産業大学</a>
+                </div>
+                <div class="col-md-9 d-none d-sm-block text-left">
+                    ものづくり教室を通して
+                </div>
+                <div class="w-100　d-none d-sm-block"></div>
+                <div class="col-md-3 col-xs-6 border-right">
+                    <a href="index.html" class="text-decoration-none text-dark">ものづくり育成プロジェクト</a>
+                </div>
+                <div class="col-md-4 d-none d-sm-block  text-left">
+                    こどもたちにものづくりの楽しさを、うれしさを
+                </div>
+                <div class="col-md-4 col-xs-12 text-right">
+                    <a href="mailto:monoikucraft@yahoo.co.jp?subject=もの育問い合わせメール"><button type="button" class="btn">お問い合わせはメールからお願いします</button></a>
+                </div>
+            </div>
         </div>
-        <div class="link">
-            <a href="activities.html">これまでの活動</a>
+        <div class="bottom-head container-fluid my-4">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">TOPページ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activities.html">これまでの活動</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FAQ.html">よくあるご質問</a>
+                </li>
+            </ul>
         </div>
-
         <!--ここからハンバーガーメニュー-->
-        <div class="hamburger-menu">
+        <!-- <div class="hamburger-menu">
             <input type="checkbox" id="menu-btn-check">
             <label for="menu-btn-check" class="menu-btn"><span></span></label>
             <div class="menu-content">
@@ -40,7 +69,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <!--ここまでハンバーガーメニュー-->
 
     </header>
@@ -48,38 +77,60 @@
 
 
     <!----- main ----->
-    <article>
-        <div class="in-header">
-            <div><img src="images/RIKU.PNG" width="200" height="200" alt="" class="riku"></div>
-            <div class="index-div"><h1 class="index-h1">ものづくり育成プロジェクトのホームページへ<br class="hide-br">ようこそ！</h1></div>
+    <article class="container-fluid">
+        <div class="top-box row justify-content-center ">
+            <div class="col-md-10 my-5">
+                <p>こどもたちにものづくりの楽しさを知ってもらうために、定期的に「ものづくり教室」を開催しております。</p>
+                <p>長期休みの自由研究や、思い出作りに、ぜひご参加ください。</p>
+            </div>
+            <div class="s-container col-md-10 ">
+                <div class="slider">
+                    <div class="slick-img">
+                        <img src="images/photo1.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img src="images/photo2.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img src="images/photo3.jpg" alt=""/>
+                    </div>
+                    <div class="slick-img">
+                        <img src="images/photo4.jpg" alt=""/>
+                    </div>
+                </div>
+            </div> 
         </div>
 
-        <section class="photo-box left inblo">
-            <img border="0" src="images/photo1.jpg" width="100%" height="auto" alt="photo1">
-            <img border="0" src="images/photo2.jpg" width="100%" height="auto" alt="photo1">
-            <img border="0" src="images/photo3.jpg" width="100%" height="auto" alt="photo1">
-            <img border="0" src="images/photo4.jpg" width="100%" height="auto" alt="photo1">
-        </section>
-
-        <section class="center inblo">
-            <div class="over">
-                <div class="in-top">
-                    <h2>ものづくり育成プロジェクトとは？</h2>
+        <section class="main">
+            <div class="notice box">
+                <div class="in-top center">
+                    <h2>&nbsp;おしらせ&nbsp;</h2>
                 </div>
                 <div class="in-buttom">
-                    <p>ものづくり育成プロジェクトでは、地域の子どもたちにものづくりの楽しさを知ってもらうことを目的に<br>
-                        クリエイトセンター独自で行っていた活動を引き継ぎ、学生と地域のつながりを深めるために活動していきます。<br><br>
-                        具体的な内容としては地域の子どもたちとともにものづくり教室を行うことで、<br>
-                        地域と大阪産業大学のつながりをものづくりを通して深めていくことを目的にしています。<br><br>
-                        学生は子どもたちにものづくりの楽しさを教えながら人に教えるということの難しさや楽しさを学びつつ、<br>
-                        学生自身のものづくりの意欲を向上させていきたいと考えています。</p>
+                    <p>2021/9/10 テストです</p>
+                    <p>2021/9/10 テストです</p>
+                    <p>2021/9/10 テストです</p>
                 </div>
                 
             </div>
 
-            <div class="middle">
-                <div class="in-top">
-                    <h2>ものづくり教室とは？</h2>
+            <div class="info box">
+                <div class="top-img-box left-normal">
+                    <img src="images/MAI.PNG" height="200px" width="200px" alt="" class=" left">
+                    <h2 class="inline-block">&nbsp;開催情報&nbsp;</h2>
+                </div>
+                <div class="in-buttom">
+                    <p>2021/9/10 テストです</p>
+                    <p>2021/9/10 テストです</p>
+                    <p>2021/9/10 テストです</p>
+                </div>
+                
+            </div>
+
+            <div class="info box">
+                <div class="top-img-box-wide left-wide">
+                    <img src="images/RIKU.PNG" height="200px" width="200px" alt="" class="left">
+                    <h2 class="inline-block-wide">&nbsp;ものづくり教室とは？&nbsp;</h2>
                 </div>
                 <div class="in-buttom">
                     <p>ものづくり教室は、子どもたちが楽しくものづくりを学ぶことを目的としております。<br><br class="hide-br">毎回学生が子どもたちに楽しくて学べるものを出し合って考え、それを出し物にしています。<br></p>
@@ -87,9 +138,10 @@
                 
             </div>
             
-            <div class="under">
-                <div class="in-top">
-                    <h2>ものづくり教室開催情報</h2>
+            <div class="info box">
+                <div class="top-img-box-wide left-wide">
+                    <img src="images/RIN.PNG" height="200px" width="200px" alt="" class="left">
+                    <h2 class="inline-block-wide">&nbsp;ものづくり教室開催情報&nbsp;</h2>
                 </div>
                 <div class="in-buttom">
                     <p>開催日:2021年11月21日（日曜日）<br> <b>※ご当選した方のみ参加可能です</b><br>
@@ -117,18 +169,18 @@
                     <a href="images/paper.png" target="_blank" rel="noopener noreferrer">ポスターを見る</a> -->
                 </div>
             </div>
-            <p href="form.html" class="btn-fin">応募は締め切りました、沢山のご応募ありがとうございました</p><br><br>
-            <!-- <a href="form.html" class="btn">応募する</a><br><br><br><br> -->
+            <!-- <p href="form.html" class="btn-fin">応募は締め切りました、沢山のご応募ありがとうございました</p><br><br> -->
+            <a href="form.html" class="btn">応募する</a><br><br><br><br>
 
             <a href="mailto:monoikucraft@yahoo.co.jp?subject=もの育問い合わせメール" class="btn">お問い合わせはメールからお願いします</a><br><p><b></b></p>
         </section>
 
-        <section class="photo-box right inblo">
+        <!-- <section class="photo-box right inblo">
             <img border="0" src="images/photo5.jpg" width="100%" height="auto" alt="photo1">
             <img border="0" src="images/photo6.jpg" width="100%" height="auto" alt="photo1">
             <img border="0" src="images/photo7.jpg" width="100%" height="auto" alt="photo1">
             <img border="0" src="images/photo8.jpg" width="100%" height="auto" alt="photo1">
-        </section>
+        </section> -->
 
     </article>
     <!----- /main ----->
@@ -141,5 +193,8 @@
     </footer>
     <!----- /footer ----->
 
+    <!-- ↓bootstrapを動作させるために必須 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>
