@@ -1,6 +1,7 @@
 .s-container {
     width: 80%;
 }
+
 .slick-img img {
     height: auto;
     opacity: .3; 
@@ -31,8 +32,11 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+.in-bottom{
+    padding-top:50px;
+}
 
-.top-img-box{
+.top-img-box1{
     background-color: white;
     display: inline-block;
     margin-top: -50px;
@@ -42,7 +46,17 @@
     width: 350px;
 }
 
-.top-img-box-wide{
+.top-img-box2{
+    background-color: white;
+    display: inline-block;
+    margin-top: -50px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.top-img-box3{
     background-color: white;
     display: inline-block;
     margin-top: -50px;
@@ -60,6 +74,7 @@
 .left{
     position: absolute;
     left: -10%;
+    top:-20%;
 }
 
 .left-normal{
@@ -83,6 +98,18 @@ h2{
     margin-top: 200px;
     border-top: 3px groove black; 
     padding-top: 50px;
+}
+
+.bg1{
+    background:linear-gradient(rgb(255, 255, 255), rgb(255, 245, 246));
+}
+
+.bg2{
+    background:linear-gradient(rgb(255, 255, 255), rgb(255, 245, 226));
+}
+
+.bg3{
+    background:linear-gradient(rgb(255, 255, 255), rgb(185, 255, 209));
 }
 
 .float-left{

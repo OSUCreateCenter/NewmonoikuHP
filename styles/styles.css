@@ -5,19 +5,26 @@ body{
     width: 100%;
     text-align: center;
     color: rgb(80, 80, 80);
-    font-size: 1.5em;
+    font-size: 1.2em;
+    zoom: 80%;
 }
 .border-right{
     border-right: #777 5px solid;
 }
 .btn{
+    font-size: 1.4rem;
     color: rgb(66, 65, 65);
+    padding: 10px 30px;
     text-decoration: none;
     border-radius: 10px;
-    border: 2px solid rgb(66, 65, 65);
+    border: 3px solid rgb(66, 65, 65);
+}
+.head-btn{
+    font-size: 1rem;
 }
 .btn:hover{
     background-color: rgb(96, 202, 188);
+    color: white;
 }
 
 .btn-fin{
@@ -37,15 +44,56 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.bottom-head{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #333 3px solid;
+    border-bottom: #333 3px solid;
+}
+
+.navi{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0;
+}
+
+.active{
+    background-image:url("../images/renti.png");
+    background-repeat: no-repeat;
+    background-position :center;
+    background-size: 25%;
+    height: 15px;
+}
+
+.navi-item{
+    list-style: none;
+    width: 33%;
+}
+
+.navi-item>a{
+    text-decoration: none;
+    color: #333;
+}
+
+.navi-item>a:hover{
+    color: rgb(41, 126, 133);
+}
 
 footer{
     background-color: rgb(68, 68, 68);
     color: white;
-    height: 60px;
-    line-height: 60px;
+    height: 120px;
+    line-height: 120px;
     position: relative;
     width: 100%;
 }
 footer>div{
     display: inline-block;
+}
+footer>a{
+    margin-right: 50px;
+    color: white;
 }
